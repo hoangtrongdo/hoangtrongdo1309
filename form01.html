@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Đăng ký tài khoản</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css" class="">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+            background-color: aliceblue;
+            background-size: 1535px 775px;
+            height:58px;
+        }
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 110px; /* only for demonstration, should be removed */
+  padding: 10px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  height: 500px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;}
+</style>
+<style>
+  p.groove {
+    border-style:none; 
+    background-color: yellow;}
+</style>
+</head>
+<body>
+<section>
+<nav>
+
+    <img style="width:500px;height:550px" src="https://png.pngtree.com/png-vector/20190803/ourlarge/pngtree-avatar-user-basic-abstract-circle-background-flat-color-icon-png-image_1647265.jpg">
+</nav>
+  <article>
+    <h1><CENTER> ĐĂNG KÝ THÀNH VIÊN</CENTER> </h1>
+    <h4>
+    <main>
+    <form action="dktv.html">
+       Để đăng ký thành viên,bạn cần phải khai báo các ô trống dưới đây <br>
+            <input type="text" size="200" placeholder="Tên đăng nhập" required> <br>
+<table>
+            <tr>
+                <td style="Width:200px;height:50px">  <input type="text" size="75" placeholder="Mật khẩu" required> </td>
+                <td>  <input type="text" size="72" placeholder="Nhập lại mật khẩu " required> </td>    
+             </tr>
+ </table> 
+<table>
+            <tr>
+                 <td> <input type="text" size="68" placeholder="Họ và tên đệm"> </td>
+                <td> <input type="text" size="84" placeholder="Tên"> </td>
+            </tr>
+                </table> 
+                <br>
+                   <input type="email" size="150" placeholder="Nhập email của bạn " required><br>
+                <br>
+                   <input list="chucvu" size="150" placeholder="Bạn là:..." required><br>
+                  <datalist id="chucvu">
+                  <option value="Sinh viên">
+                  </datalist>
+                <br>
+                   <input type="" size="150" placeholder="Số điện thoại " required> <br>
+                <br>
+                    <input type="text" size="150" placeholder="Trường" required> <br>
+                <br>
+                    <input type="text" size="150" placeholder="Địa chỉ trường" required> <br>
+                <br>
+<table>
+              <tr>
+                 <td> <input list="tinh" size="49" placeholder="Tỉnh/Thành phố"> </td>
+                     <datalist id="tinh">
+                            <option value="Thừa Thiên Huế">
+                          </datalist>
+                        <td> <input list="quan" size="49" placeholder="Quận/Huyện"> </td>
+                            <datalist id="quan">
+                             <option value="Thừa Thiên Huế">
+                            </datalist>
+                        <td> <input list="xa" size="49" placeholder="Phường/Xã"> </td>
+                            <datalist id="xa"> 
+                      <option value="Phường Phú Hội">
+                     <option value="Phường Gia Hội">
+                        <option value="Phường Phú Lộc">
+                            </datalist>
+   </tr>
+      </table>     
+      </form>
+</main>
+                  <input id="submitButton" type="submit" placeholder="Mã bảo mật" required>
+                 <button id="refreshButton" type="submit">Refresh</button> 
+              <span id="output"></span>
+          </div>
+        </div>  
+           <script src="script.js"></script> <br>
+           <center>
+          <input type="checkbox" name="ok" required> <label for="ok">Tôi đồng ý với 
+              <a href="qdtv.html">Quy định thành viên</a>
+          </label>
+      </center>
+      <br>
+         <center>
+    <button type="reset" value="Làm lại">
+         <strong>Đặt Lại</strong>
+    </button>
+        <button type="submit" value="Nộp">
+          <strong>Tạo Tài Khoản</strong>
+       </button>
+    </center>
+        <h3> <a href="hocweb.html">Quay về </a></h3>
+    </h4>
